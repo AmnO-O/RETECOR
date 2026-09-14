@@ -5,3 +5,15 @@ Thumbs.db
 *.log
 __pycache__/
 
+# local data / environments
+reteco_data/
+starter_kit/.venv/
+.starter_kit_venv/
+
+# generated artifacts (runs + evaluation outputs)
+starter_kit/runs_release/
+starter_kit/runs_sample/
+starter_kit/runs_all/
+starter_kit/results*/
+starter_kit/.venv/
+
