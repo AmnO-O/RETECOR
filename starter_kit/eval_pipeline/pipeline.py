@@ -188,7 +188,7 @@ def main(argv=None):
     ap.add_argument("--outdir", default="results")
     ap.add_argument("--all-domains", action="store_true",
                     help="scan data-dir/track1_tempo for every domain")
-    ap.add_argument("--data-dir", default = "results", help="reteco_data root (with --all-domains)")
+    ap.add_argument("--data-dir", help="reteco_data root (with --all-domains)")
     ap.add_argument("--runs-dir", help="dir containing <domain>_1a_<split>.trec files")
     args = ap.parse_args(argv)
 

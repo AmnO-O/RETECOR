@@ -115,3 +115,22 @@ text (the released data has no explicit labels):
 | `taxonomy.py` | Derived query-type classification rules |
 | `report.py` | `test_results.json` builder |
 | `pipeline.py` | CLI entry point (single-domain and `--all-domains`) |
+| `corpus_tools.py` | Corpus cleaning / dedupe / parent-mapped chunking (see below) |
+
+### Corpus prep (`corpus_tools.py`)
+
+Clean, deduplicate, and window a raw `documents.jsonl` before indexing. Short
+docs pass through untouched (atomic scoring unit), long tail is split into
+overlapping windows mapped back to the parent id via a chunk map.
+
+```powershell
+python -m eval_pipeline.corpus_tools ..\data\track1_tempo\cardano\documents.jsonl `
+  --qrels ..\data\track1_tempo\cardano\qrels_dev.txt `
+  --out corpus_clean.jsonl --map chunk_map.tsv
+
+# options: --chunk-min-words 1500 --window 300 --overlap 50 --cap-words 20000
+```
+
+`--qrels` protects gold doc ids from content-dedupe (cardano has gold docs that
+are exact copies of each other). Result: 87,201 → 56,611 records, 0/45 gold docs
+lost on cardano dev.
