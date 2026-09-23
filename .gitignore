@@ -16,4 +16,5 @@ starter_kit/runs_sample/
 starter_kit/runs_all/
 starter_kit/results*/
 starter_kit/.venv/
+starter_kit/data_chunking/out/
 

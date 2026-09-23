@@ -109,9 +109,11 @@ def run(docs_path, out_path, map_path=None, window=300, overlap=50,
                     dropped += 1
                     continue
                 doc_id = d["id"]
-                if dedupe and doc_id not in protected:
+                if dedupe:
                     h = _sha1(c)
-                    if h in seen:
+                    # protected (gold) docs always pass and seed the seen set;
+                    # unprotected duplicates thereafter are dropped
+                    if h in seen and doc_id not in protected:
                         dropped += 1
                         continue
                     seen.add(h)
