@@ -1,0 +1,483 @@
+{
+  "domain": "hsm",
+  "seed": 42,
+  "sort_key": "numeric suffix of two-part document ID; ties by full ID",
+  "near_source_warning": "Adjacent suffix is a source-proximity proxy, not verified provenance.",
+  "all_documents": 213818,
+  "sorted_two_part_documents": 28385,
+  "query_ids": [
+    "12878_739",
+    "13022_735",
+    "13846_707"
+  ],
+  "near_count": 25,
+  "far_count": 25,
+  "far_min_rank_distance": 50,
+  "gold_ids": [
+    "hsm/3a3f1877_7840.txt",
+    "hsm/3ed165c3_7839.txt",
+    "hsm/43794cfa_12122.txt",
+    "hsm/89abb9a1_7838.txt",
+    "hsm/b562c48a_11788.txt",
+    "hsm/bfdcc3c5_12121.txt",
+    "hsm/fb654427_11789.txt"
+  ],
+  "documents": [
+    {
+      "doc_id": "hsm/3a3f1877_7840.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 1977
+    },
+    {
+      "doc_id": "hsm/3ed165c3_7839.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 689
+    },
+    {
+      "doc_id": "hsm/43794cfa_12122.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 173
+    },
+    {
+      "doc_id": "hsm/89abb9a1_7838.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 1424
+    },
+    {
+      "doc_id": "hsm/b562c48a_11788.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 156
+    },
+    {
+      "doc_id": "hsm/bfdcc3c5_12121.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 303
+    },
+    {
+      "doc_id": "hsm/fb654427_11789.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 702
+    },
+    {
+      "doc_id": "hsm/57cc1775_7837.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 1579
+    },
+    {
+      "doc_id": "hsm/a1e87149_7841.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 299
+    },
+    {
+      "doc_id": "hsm/d9f02ba9_11787.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/b562c48a_11788.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 41315
+    },
+    {
+      "doc_id": "hsm/bee262cd_11790.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/fb654427_11789.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 340
+    },
+    {
+      "doc_id": "hsm/3f7dd252_12120.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/bfdcc3c5_12121.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 34
+    },
+    {
+      "doc_id": "hsm/276bb630_12123.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 25
+    },
+    {
+      "doc_id": "hsm/699265b3_7836.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 996
+    },
+    {
+      "doc_id": "hsm/d3456326_7842.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 647
+    },
+    {
+      "doc_id": "hsm/22022760_11786.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/b562c48a_11788.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 22
+    },
+    {
+      "doc_id": "hsm/98609fc3_11791.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/fb654427_11789.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 269
+    },
+    {
+      "doc_id": "hsm/614881b7_12119.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/bfdcc3c5_12121.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 136
+    },
+    {
+      "doc_id": "hsm/c01a2631_12124.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 15
+    },
+    {
+      "doc_id": "hsm/5b56623f_7835.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 1293
+    },
+    {
+      "doc_id": "hsm/accf9572_7843.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 263
+    },
+    {
+      "doc_id": "hsm/5e42d536_11785.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/b562c48a_11788.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 23
+    },
+    {
+      "doc_id": "hsm/f60e6e28_11792.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/fb654427_11789.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 24
+    },
+    {
+      "doc_id": "hsm/9f559654_12118.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/bfdcc3c5_12121.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 104
+    },
+    {
+      "doc_id": "hsm/9236aec8_12125.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 12
+    },
+    {
+      "doc_id": "hsm/7172a126_7834.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 432
+    },
+    {
+      "doc_id": "hsm/f2703d52_7844.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 581
+    },
+    {
+      "doc_id": "hsm/99c30d98_11784.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/b562c48a_11788.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 24
+    },
+    {
+      "doc_id": "hsm/700ebfed_11793.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/fb654427_11789.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 83
+    },
+    {
+      "doc_id": "hsm/f103e8a4_12117.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/bfdcc3c5_12121.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 145
+    },
+    {
+      "doc_id": "hsm/d383764a_12126.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 24
+    },
+    {
+      "doc_id": "hsm/44137f12_7833.txt",
+      "group": "near",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 358
+    },
+    {
+      "doc_id": "hsm/5242a1e5_21606.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 9484,
+      "suffix_distance": 9484,
+      "words": 7546
+    },
+    {
+      "doc_id": "hsm/75bb3129_3744.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 4094,
+      "suffix_distance": 4094,
+      "words": 142
+    },
+    {
+      "doc_id": "hsm/d17bea5e_0851.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 6987,
+      "suffix_distance": 6987,
+      "words": 73
+    },
+    {
+      "doc_id": "hsm/c2b4bf83_210391.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 12836,
+      "suffix_distance": 198269,
+      "words": 31
+    },
+    {
+      "doc_id": "hsm/ebf95807_9301.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 1461,
+      "suffix_distance": 1461,
+      "words": 208
+    },
+    {
+      "doc_id": "hsm/047fa2e8_8281.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/3a3f1877_7840.txt",
+      "rank_distance": 441,
+      "suffix_distance": 441,
+      "words": 431
+    },
+    {
+      "doc_id": "hsm/44391980_7461.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 377,
+      "suffix_distance": 377,
+      "words": 2452
+    },
+    {
+      "doc_id": "hsm/11637cd7_4687.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 3151,
+      "suffix_distance": 3151,
+      "words": 46
+    },
+    {
+      "doc_id": "hsm/d509d1d9_210224.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 12669,
+      "suffix_distance": 198102,
+      "words": 210
+    },
+    {
+      "doc_id": "hsm/a75fec7a_3446.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 4392,
+      "suffix_distance": 4392,
+      "words": 140
+    },
+    {
+      "doc_id": "hsm/5d18a5b2_208266.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 10711,
+      "suffix_distance": 196144,
+      "words": 83
+    },
+    {
+      "doc_id": "hsm/de1a6ce7_210362.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 12807,
+      "suffix_distance": 198240,
+      "words": 106
+    },
+    {
+      "doc_id": "hsm/47c7e4b5_18489.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 6367,
+      "suffix_distance": 6367,
+      "words": 124
+    },
+    {
+      "doc_id": "hsm/75ae51db_2930.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 4908,
+      "suffix_distance": 4908,
+      "words": 301
+    },
+    {
+      "doc_id": "hsm/72ca5f02_19980.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 7858,
+      "suffix_distance": 7858,
+      "words": 594
+    },
+    {
+      "doc_id": "hsm/4363530e_14379.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 2257,
+      "suffix_distance": 2257,
+      "words": 126
+    },
+    {
+      "doc_id": "hsm/2c847b62_1076.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 6762,
+      "suffix_distance": 6762,
+      "words": 66
+    },
+    {
+      "doc_id": "hsm/0e3b4c86_1008.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 6830,
+      "suffix_distance": 6830,
+      "words": 228
+    },
+    {
+      "doc_id": "hsm/1d38b843_3157.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 4681,
+      "suffix_distance": 4681,
+      "words": 189
+    },
+    {
+      "doc_id": "hsm/47c7e4b5_7311.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 527,
+      "suffix_distance": 527,
+      "words": 124
+    },
+    {
+      "doc_id": "hsm/65fa8810_7773.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 65,
+      "suffix_distance": 65,
+      "words": 231
+    },
+    {
+      "doc_id": "hsm/b4ba8e43_17156.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 5034,
+      "suffix_distance": 5034,
+      "words": 1540
+    },
+    {
+      "doc_id": "hsm/a26906f1_20363.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 8241,
+      "suffix_distance": 8241,
+      "words": 668
+    },
+    {
+      "doc_id": "hsm/7d76e4da_0901.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/89abb9a1_7838.txt",
+      "rank_distance": 6937,
+      "suffix_distance": 6937,
+      "words": 86
+    },
+    {
+      "doc_id": "hsm/c0bc92e3_19013.txt",
+      "group": "random",
+      "anchor_gold_id": "hsm/43794cfa_12122.txt",
+      "rank_distance": 6891,
+      "suffix_distance": 6891,
+      "words": 131
+    }
+  ]
+}

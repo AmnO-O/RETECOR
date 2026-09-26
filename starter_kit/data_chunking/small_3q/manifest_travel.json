@@ -1,0 +1,474 @@
+{
+  "domain": "travel",
+  "seed": 42,
+  "sort_key": "numeric suffix of two-part document ID; ties by full ID",
+  "near_source_warning": "Adjacent suffix is a source-proximity proxy, not verified provenance.",
+  "all_documents": 177677,
+  "sorted_two_part_documents": 32656,
+  "query_ids": [
+    "188596_1148",
+    "190667_1135",
+    "186482_1157"
+  ],
+  "near_count": 25,
+  "far_count": 25,
+  "far_min_rank_distance": 50,
+  "gold_ids": [
+    "travel/05c5f169_16005.txt",
+    "travel/44781a26_16004.txt",
+    "travel/532f225d_11883.txt",
+    "travel/a596191a_14059.txt",
+    "travel/cdf6d33b_11884.txt",
+    "travel/e7d4ac65_14060.txt"
+  ],
+  "documents": [
+    {
+      "doc_id": "travel/05c5f169_16005.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 95
+    },
+    {
+      "doc_id": "travel/44781a26_16004.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 36
+    },
+    {
+      "doc_id": "travel/532f225d_11883.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 34
+    },
+    {
+      "doc_id": "travel/a596191a_14059.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 56
+    },
+    {
+      "doc_id": "travel/cdf6d33b_11884.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 76
+    },
+    {
+      "doc_id": "travel/e7d4ac65_14060.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 44
+    },
+    {
+      "doc_id": "travel/1ef4b396_11882.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 13
+    },
+    {
+      "doc_id": "travel/44611e7e_11885.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/cdf6d33b_11884.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 156
+    },
+    {
+      "doc_id": "travel/c6fa45e9_14058.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/a596191a_14059.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 23
+    },
+    {
+      "doc_id": "travel/4ec43ac0_14061.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/e7d4ac65_14060.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 20
+    },
+    {
+      "doc_id": "travel/db7b7504_16003.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/44781a26_16004.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 27417
+    },
+    {
+      "doc_id": "travel/ed8c2af9_16006.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 12
+    },
+    {
+      "doc_id": "travel/881d2f1e_11881.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 26
+    },
+    {
+      "doc_id": "travel/eb1ce4a1_11886.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/cdf6d33b_11884.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 195
+    },
+    {
+      "doc_id": "travel/6d1df3ab_14057.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/a596191a_14059.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 155
+    },
+    {
+      "doc_id": "travel/f3a5e98b_14062.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/e7d4ac65_14060.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 27
+    },
+    {
+      "doc_id": "travel/878827b3_16002.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/44781a26_16004.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 15
+    },
+    {
+      "doc_id": "travel/879d7e64_16007.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 8
+    },
+    {
+      "doc_id": "travel/1b3b743b_11880.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 230
+    },
+    {
+      "doc_id": "travel/f661d968_11887.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/cdf6d33b_11884.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 30935
+    },
+    {
+      "doc_id": "travel/82c353c8_14056.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/a596191a_14059.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 312
+    },
+    {
+      "doc_id": "travel/c5f9c7d3_14063.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/e7d4ac65_14060.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 678
+    },
+    {
+      "doc_id": "travel/1147e354_16001.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/44781a26_16004.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 33
+    },
+    {
+      "doc_id": "travel/4f3b539b_16008.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 142
+    },
+    {
+      "doc_id": "travel/edc7b435_11879.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 8
+    },
+    {
+      "doc_id": "travel/46fad311_11888.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/cdf6d33b_11884.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 591
+    },
+    {
+      "doc_id": "travel/4dc11172_14055.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/a596191a_14059.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 561
+    },
+    {
+      "doc_id": "travel/ee4582ae_14064.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/e7d4ac65_14060.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 844
+    },
+    {
+      "doc_id": "travel/2640eda9_16000.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/44781a26_16004.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 44
+    },
+    {
+      "doc_id": "travel/dce6c771_16009.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 82
+    },
+    {
+      "doc_id": "travel/f30709c1_11878.txt",
+      "group": "near",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 11
+    },
+    {
+      "doc_id": "travel/a1d35bc5_21457.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 5452,
+      "suffix_distance": 5452,
+      "words": 34
+    },
+    {
+      "doc_id": "travel/8fd8b9bf_3690.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 8193,
+      "suffix_distance": 8193,
+      "words": 48
+    },
+    {
+      "doc_id": "travel/c72ef50d_0829.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 11054,
+      "suffix_distance": 11054,
+      "words": 121
+    },
+    {
+      "doc_id": "travel/0007677a_24851.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 8846,
+      "suffix_distance": 8846,
+      "words": 176
+    },
+    {
+      "doc_id": "travel/b736db62_9107.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 2776,
+      "suffix_distance": 2776,
+      "words": 507
+    },
+    {
+      "doc_id": "travel/41f9114c_8112.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 3771,
+      "suffix_distance": 3771,
+      "words": 150
+    },
+    {
+      "doc_id": "travel/b6ce5756_7396.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 4487,
+      "suffix_distance": 4487,
+      "words": 22
+    },
+    {
+      "doc_id": "travel/b2e0ed58_4626.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 7257,
+      "suffix_distance": 7257,
+      "words": 20
+    },
+    {
+      "doc_id": "travel/672dbe76_24681.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 8676,
+      "suffix_distance": 8676,
+      "words": 193
+    },
+    {
+      "doc_id": "travel/a6504b67_3395.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 8488,
+      "suffix_distance": 8488,
+      "words": 38
+    },
+    {
+      "doc_id": "travel/cf106dbd_22692.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 6687,
+      "suffix_distance": 6687,
+      "words": 19
+    },
+    {
+      "doc_id": "travel/5d12bdf2_24822.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 8817,
+      "suffix_distance": 8817,
+      "words": 101
+    },
+    {
+      "doc_id": "travel/93560e78_174807.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 13781,
+      "suffix_distance": 158802,
+      "words": 35
+    },
+    {
+      "doc_id": "travel/7837322e_18358.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 2353,
+      "suffix_distance": 2353,
+      "words": 173
+    },
+    {
+      "doc_id": "travel/2d06f9fd_2879.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 9004,
+      "suffix_distance": 9004,
+      "words": 332
+    },
+    {
+      "doc_id": "travel/810d1605_19845.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 3840,
+      "suffix_distance": 3840,
+      "words": 543
+    },
+    {
+      "doc_id": "travel/b77b40da_14166.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/e7d4ac65_14060.txt",
+      "rank_distance": 106,
+      "suffix_distance": 106,
+      "words": 22
+    },
+    {
+      "doc_id": "travel/7c0e5f35_1053.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 10830,
+      "suffix_distance": 10830,
+      "words": 124
+    },
+    {
+      "doc_id": "travel/987b95d5_0988.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 10895,
+      "suffix_distance": 10895,
+      "words": 22
+    },
+    {
+      "doc_id": "travel/75a3198b_3104.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 8779,
+      "suffix_distance": 8779,
+      "words": 125
+    },
+    {
+      "doc_id": "travel/15d8dc28_7246.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 4637,
+      "suffix_distance": 4637,
+      "words": 39
+    },
+    {
+      "doc_id": "travel/0ca59d00_7710.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 4173,
+      "suffix_distance": 4173,
+      "words": 27
+    },
+    {
+      "doc_id": "travel/b260392d_17027.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 1022,
+      "suffix_distance": 1022,
+      "words": 65
+    },
+    {
+      "doc_id": "travel/d2c8375b_20225.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/05c5f169_16005.txt",
+      "rank_distance": 4220,
+      "suffix_distance": 4220,
+      "words": 88
+    },
+    {
+      "doc_id": "travel/7bb7d016_0879.txt",
+      "group": "random",
+      "anchor_gold_id": "travel/532f225d_11883.txt",
+      "rank_distance": 11004,
+      "suffix_distance": 11004,
+      "words": 587
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "domain": "genealogy",
+  "seed": 42,
+  "sort_key": "numeric suffix of two-part document ID; ties by full ID",
+  "near_source_warning": "Adjacent suffix is a source-proximity proxy, not verified provenance.",
+  "all_documents": 156228,
+  "sorted_two_part_documents": 17740,
+  "query_ids": [
+    "19348_236",
+    "12197_293",
+    "11739_303"
+  ],
+  "near_count": 25,
+  "far_count": 25,
+  "far_min_rank_distance": 50,
+  "gold_ids": [
+    "genealogy/59e72ee2_6376.txt",
+    "genealogy/733d4d68_6994.txt",
+    "genealogy/a1e9f78e_6375.txt",
+    "genealogy/cf4d3510_0178.txt",
+    "genealogy/e88d33be_6993.txt",
+    "genealogy/f597f94a_0179.txt"
+  ],
+  "documents": [
+    {
+      "doc_id": "genealogy/59e72ee2_6376.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 413
+    },
+    {
+      "doc_id": "genealogy/733d4d68_6994.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 638
+    },
+    {
+      "doc_id": "genealogy/a1e9f78e_6375.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 311
+    },
+    {
+      "doc_id": "genealogy/cf4d3510_0178.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 317
+    },
+    {
+      "doc_id": "genealogy/e88d33be_6993.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 377
+    },
+    {
+      "doc_id": "genealogy/f597f94a_0179.txt",
+      "group": "gold",
+      "anchor_gold_id": null,
+      "rank_distance": null,
+      "suffix_distance": null,
+      "words": 129
+    },
+    {
+      "doc_id": "genealogy/0014ae71_0177.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 138
+    },
+    {
+      "doc_id": "genealogy/76b358e0_6374.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 43
+    },
+    {
+      "doc_id": "genealogy/de9ad4fc_6992.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 8
+    },
+    {
+      "doc_id": "genealogy/8bd8dccb_6995.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 1,
+      "suffix_distance": 1,
+      "words": 61
+    },
+    {
+      "doc_id": "genealogy/0014ae71_0176.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 138
+    },
+    {
+      "doc_id": "genealogy/be1d2183_6373.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 18
+    },
+    {
+      "doc_id": "genealogy/6db80d02_6991.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 2210
+    },
+    {
+      "doc_id": "genealogy/e5e0fb7b_6996.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 2,
+      "suffix_distance": 2,
+      "words": 13
+    },
+    {
+      "doc_id": "genealogy/88718584_0175.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 56
+    },
+    {
+      "doc_id": "genealogy/c33e9fdd_6372.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 25
+    },
+    {
+      "doc_id": "genealogy/8bd8dccb_6379.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/59e72ee2_6376.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 61
+    },
+    {
+      "doc_id": "genealogy/584f646a_6990.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 96
+    },
+    {
+      "doc_id": "genealogy/3bfa0f60_6997.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 3,
+      "suffix_distance": 3,
+      "words": 308
+    },
+    {
+      "doc_id": "genealogy/8920c9f6_0174.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 33
+    },
+    {
+      "doc_id": "genealogy/374fd662_6371.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 2730
+    },
+    {
+      "doc_id": "genealogy/cd85518d_6380.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/59e72ee2_6376.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 104
+    },
+    {
+      "doc_id": "genealogy/6f7a36a1_6989.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 1666
+    },
+    {
+      "doc_id": "genealogy/c361d7b6_6998.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 4,
+      "suffix_distance": 4,
+      "words": 169
+    },
+    {
+      "doc_id": "genealogy/0478ae79_0173.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 1970
+    },
+    {
+      "doc_id": "genealogy/38e5287a_6370.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 15
+    },
+    {
+      "doc_id": "genealogy/5f25b0d7_6381.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/59e72ee2_6376.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 155
+    },
+    {
+      "doc_id": "genealogy/7fd27911_6988.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 59
+    },
+    {
+      "doc_id": "genealogy/57d63c01_6999.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 5,
+      "suffix_distance": 5,
+      "words": 161
+    },
+    {
+      "doc_id": "genealogy/ccbe11bd_0172.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/cf4d3510_0178.txt",
+      "rank_distance": 6,
+      "suffix_distance": 6,
+      "words": 70
+    },
+    {
+      "doc_id": "genealogy/e63fee54_0185.txt",
+      "group": "near",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 6,
+      "suffix_distance": 6,
+      "words": 171
+    },
+    {
+      "doc_id": "genealogy/d361484b_3867.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 2508,
+      "suffix_distance": 2508,
+      "words": 25853
+    },
+    {
+      "doc_id": "genealogy/e2695d6e_0943.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 764,
+      "suffix_distance": 764,
+      "words": 11
+    },
+    {
+      "doc_id": "genealogy/d14190f6_9572.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 2578,
+      "suffix_distance": 2578,
+      "words": 15
+    },
+    {
+      "doc_id": "genealogy/ae672ac9_8555.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 1561,
+      "suffix_distance": 1561,
+      "words": 388
+    },
+    {
+      "doc_id": "genealogy/c00e7e3c_7827.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 833,
+      "suffix_distance": 833,
+      "words": 167
+    },
+    {
+      "doc_id": "genealogy/8e09e7e4_4823.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 1552,
+      "suffix_distance": 1552,
+      "words": 358
+    },
+    {
+      "doc_id": "genealogy/4fbe6ebc_3575.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 2800,
+      "suffix_distance": 2800,
+      "words": 37
+    },
+    {
+      "doc_id": "genealogy/5cb80ec2_3049.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 2870,
+      "suffix_distance": 2870,
+      "words": 43
+    },
+    {
+      "doc_id": "genealogy/933c07fd_152922.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 7440,
+      "suffix_distance": 145928,
+      "words": 35
+    },
+    {
+      "doc_id": "genealogy/e355f980_1174.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 995,
+      "suffix_distance": 995,
+      "words": 73
+    },
+    {
+      "doc_id": "genealogy/70add36e_1109.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 930,
+      "suffix_distance": 930,
+      "words": 703
+    },
+    {
+      "doc_id": "genealogy/d092f936_3275.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 3096,
+      "suffix_distance": 3096,
+      "words": 3662
+    },
+    {
+      "doc_id": "genealogy/746fb8cb_7668.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 674,
+      "suffix_distance": 674,
+      "words": 632
+    },
+    {
+      "doc_id": "genealogy/eef74633_8145.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 1151,
+      "suffix_distance": 1151,
+      "words": 15
+    },
+    {
+      "doc_id": "genealogy/2c0a3f79_155656.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 10174,
+      "suffix_distance": 148662,
+      "words": 101
+    },
+    {
+      "doc_id": "genealogy/fa79084b_1002.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 823,
+      "suffix_distance": 823,
+      "words": 305
+    },
+    {
+      "doc_id": "genealogy/2c2e03a7_6909.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/e88d33be_6993.txt",
+      "rank_distance": 84,
+      "suffix_distance": 84,
+      "words": 533
+    },
+    {
+      "doc_id": "genealogy/4951bf80_152843.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 7361,
+      "suffix_distance": 145849,
+      "words": 103
+    },
+    {
+      "doc_id": "genealogy/97f94022_7733.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 739,
+      "suffix_distance": 739,
+      "words": 1262
+    },
+    {
+      "doc_id": "genealogy/eda93b7d_153816.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 8334,
+      "suffix_distance": 146822,
+      "words": 80
+    },
+    {
+      "doc_id": "genealogy/347db613_9675.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 2681,
+      "suffix_distance": 2681,
+      "words": 428
+    },
+    {
+      "doc_id": "genealogy/43f330cf_0323.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/f597f94a_0179.txt",
+      "rank_distance": 144,
+      "suffix_distance": 144,
+      "words": 11
+    },
+    {
+      "doc_id": "genealogy/fc94422a_5494.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/a1e9f78e_6375.txt",
+      "rank_distance": 881,
+      "suffix_distance": 881,
+      "words": 42
+    },
+    {
+      "doc_id": "genealogy/129b4f69_152945.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 7463,
+      "suffix_distance": 145951,
+      "words": 52
+    },
+    {
+      "doc_id": "genealogy/b3625df6_11743.txt",
+      "group": "random",
+      "anchor_gold_id": "genealogy/733d4d68_6994.txt",
+      "rank_distance": 4749,
+      "suffix_distance": 4749,
+      "words": 45
+    }
+  ]
+}
